@@ -17,25 +17,25 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    value: "+1 (555) 123-4567",
+    value: "+971 55 4958584",
     description: "Available 24/7 for emergency support"
   },
   {
     icon: Mail,
     title: "Email",
-    value: "hello@techsolutions.com",
+    value: "gdsmailbox@proton.me",
     description: "We'll respond within 2 hours"
   },
   {
     icon: MapPin,
     title: "Office",
-    value: "123 Tech Street, Silicon Valley, CA 94105",
+    value: "AHMED KASSIM DARWISH FAKHROO, 128-AL KHABAISI, PO Box: 64027, Dubai, UAE",
     description: "Visit us for in-person consultations"
   },
   {
     icon: Clock,
     title: "Business Hours",
-    value: "Mon-Fri: 9AM-6PM PST",
+    value: "Mon-Fri: 9AM-6PM GST",
     description: "Emergency support available 24/7"
   }
 ];
