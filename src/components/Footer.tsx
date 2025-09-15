@@ -127,10 +127,10 @@ const Footer = () => {
                 © 2024 BNS IT consultancy LLC. All rights reserved.
               </p>
             <div className="flex items-center space-x-6">
-              <a href="#" className="text-background/80 hover:text-primary text-sm transition-colors duration-200">
+              <a href="/privacy-policy" className="text-background/80 hover:text-primary text-sm transition-colors duration-200">
                 Privacy Policy
               </a>
-              <a href="#" className="text-background/80 hover:text-primary text-sm transition-colors duration-200">
+              <a href="/terms-of-service" className="text-background/80 hover:text-primary text-sm transition-colors duration-200">
                 Terms of Service
               </a>
               <Button

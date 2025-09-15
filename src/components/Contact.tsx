@@ -145,7 +145,7 @@ const Contact = () => {
                   className="bg-background text-foreground hover:bg-background/90 transition-colors duration-200"
                   onClick={() => window.open('https://calendly.com', '_blank')}
                 >
-                  Book Now
+                  Schedule Consultation
                   <Calendar className="ml-2 h-5 w-5" />
                 </Button>
               </CardContent>

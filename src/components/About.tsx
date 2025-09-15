@@ -103,10 +103,6 @@ const About = () => {
               ))}
             </div>
 
-            <Button size="lg" className="bg-gradient-primary hover:opacity-90 transition-opacity duration-200">
-              Learn More About Us
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
           </div>
 
           {/* Features Grid */}
