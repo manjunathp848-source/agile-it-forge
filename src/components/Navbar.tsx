@@ -12,7 +12,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              TechSolutions
+              BNS IT Consultancy
             </h1>
           </div>
 
@@ -36,7 +36,10 @@ const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="bg-gradient-primary hover:opacity-90 transition-opacity duration-200">
+            <Button 
+              className="bg-gradient-primary hover:opacity-90 transition-opacity duration-200"
+              onClick={() => window.open('https://calendly.com', '_blank')}
+            >
               Get Started
             </Button>
           </div>
@@ -86,7 +89,10 @@ const Navbar = () => {
                 Contact
               </a>
               <div className="px-3 py-2">
-                <Button className="w-full bg-gradient-primary hover:opacity-90 transition-opacity duration-200">
+                <Button 
+                  className="w-full bg-gradient-primary hover:opacity-90 transition-opacity duration-200"
+                  onClick={() => window.open('https://calendly.com', '_blank')}
+                >
                   Get Started
                 </Button>
               </div>

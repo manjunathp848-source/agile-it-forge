@@ -29,6 +29,7 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 className="bg-gradient-primary hover:opacity-90 transition-all duration-200 transform hover:scale-105 shadow-medium"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Get Free Consultation
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -37,6 +38,7 @@ const Hero = () => {
                 variant="outline" 
                 size="lg"
                 className="border-2 hover:bg-primary hover:text-primary-foreground transition-all duration-200"
+                onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 View Our Services
               </Button>

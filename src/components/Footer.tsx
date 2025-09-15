@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="lg:col-span-2 space-y-6">
             <div>
               <h3 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">
-                TechSolutions
+                BNS IT Consultancy
               </h3>
               <p className="text-background/80 text-lg mb-6">
                 Empowering businesses with innovative technology solutions. 
@@ -123,9 +123,9 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-background/20">
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
-            <p className="text-background/80 text-sm">
-              © 2024 TechSolutions. All rights reserved.
-            </p>
+              <p className="text-background/80 text-sm">
+                © 2024 BNS IT consultancy LLC. All rights reserved.
+              </p>
             <div className="flex items-center space-x-6">
               <a href="#" className="text-background/80 hover:text-primary text-sm transition-colors duration-200">
                 Privacy Policy

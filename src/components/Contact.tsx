@@ -143,6 +143,7 @@ const Contact = () => {
                   variant="secondary" 
                   size="lg" 
                   className="bg-background text-foreground hover:bg-background/90 transition-colors duration-200"
+                  onClick={() => window.open('https://calendly.com', '_blank')}
                 >
                   Book Now
                   <Calendar className="ml-2 h-5 w-5" />
@@ -164,7 +165,7 @@ const Contact = () => {
               </p>
               <Button variant="destructive" size="lg">
                 <Phone className="mr-2 h-5 w-5" />
-                Emergency Hotline: +1 (555) 911-TECH
+                Emergency Hotline: +971554958584
               </Button>
             </CardContent>
           </Card>
