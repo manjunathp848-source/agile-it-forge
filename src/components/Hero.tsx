@@ -38,7 +38,13 @@ const Hero = () => {
                 variant="outline" 
                 size="lg"
                 className="border-2 hover:bg-primary hover:text-primary-foreground transition-all duration-200"
-                onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => {
+                  console.log('View Our Services clicked');
+                  const servicesSection = document.getElementById('services');
+                  if (servicesSection) {
+                    servicesSection.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
               >
                 View Our Services
               </Button>
