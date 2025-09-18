@@ -104,13 +104,6 @@ const Services = () => {
                   ))}
                 </ul>
                 
-                <Button 
-                  variant="outline" 
-                  className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-200"
-                >
-                  Learn More
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
               </CardContent>
             </Card>
           ))}
@@ -126,7 +119,11 @@ const Services = () => {
               Every business is unique. Let's discuss how we can create a tailored IT strategy 
               that perfectly fits your specific needs and goals.
             </p>
-            <Button size="lg" className="bg-gradient-primary hover:opacity-90 transition-opacity duration-200">
+            <Button 
+              size="lg" 
+              className="bg-gradient-primary hover:opacity-90 transition-opacity duration-200"
+              onClick={() => window.open('https://calendly.com', '_blank')}
+            >
               Schedule Consultation
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>

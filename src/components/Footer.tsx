@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-primary" />
-                <span className="text-background/90">gdsmailbox@proton.me</span>
+                <span className="text-background/90">gd@bnsitservices.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-primary" />
@@ -76,7 +76,14 @@ const Footer = () => {
               <a href="#contact" className="block text-background/80 hover:text-primary transition-colors duration-200">
                 Contact
               </a>
-              <a href="#" className="block text-background/80 hover:text-primary transition-colors duration-200">
+              <a 
+                href="#contact" 
+                className="block text-background/80 hover:text-primary transition-colors duration-200"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
                 Support
               </a>
             </nav>

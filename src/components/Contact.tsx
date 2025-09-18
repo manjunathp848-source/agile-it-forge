@@ -23,7 +23,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "gdsmailbox@proton.me",
+    value: "gd@bnsitservices.com",
     description: "We'll respond within 2 hours"
   },
   {
